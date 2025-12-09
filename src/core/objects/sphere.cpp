@@ -1,0 +1,20 @@
+#include "../../utils.h"
+#include "object.h"
+#include "../ray.cpp"
+
+class sphere : public object
+{
+    private: 
+        
+        glm::vec3 position ;
+        float radius ;
+
+    public : 
+        
+        sphere(glm::vec3 position , float radius) : position(position) , radius(radius){} 
+
+        bool ray_intersection(ray r)
+        {
+            
+        }
+};
