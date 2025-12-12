@@ -1,6 +1,6 @@
 #include "../../utils.h"
 #include "object.h"
-#include "../ray.cpp"
+#include "../ray.h"
 
 class sphere : public object
 {
@@ -13,6 +13,6 @@ class sphere : public object
         
         sphere(glm::vec3 position , float radius) : position(position) , radius(radius){} 
 
-        std :: pair<bool , float> ray_intersection(ray r)
+        std :: pair<bool , float> ray_intersection(ray r) ;
         
 };

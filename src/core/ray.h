@@ -29,7 +29,5 @@ class ray
         {
             this->normal = normal ;
         }
-        
-        bool setParameter() ;
 
 };

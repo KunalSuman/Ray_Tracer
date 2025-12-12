@@ -10,12 +10,3 @@ glm :: vec3 ray :: create_ray(glm :: vec3 origin , glm :: vec3 direction , float
 
 }
 
-bool ray :: setParameter()
-{
-    if () 
-    {
-        return true ;
-    }
-    return false ;
-}
-

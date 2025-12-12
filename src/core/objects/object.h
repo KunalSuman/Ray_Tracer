@@ -2,11 +2,9 @@
 
 class object 
 {
-    private :
     
     public :
         void create_object() ;
-        void ray_intersection() ;
-
+        std :: pair<bool , float> ray_intersection() ;
 };
 
